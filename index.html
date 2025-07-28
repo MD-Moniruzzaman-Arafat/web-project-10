@@ -45,6 +45,7 @@
     </header>
 
     <main>
+        <!-- search start -->
         <section class="container mx-auto text-center my-20">
             <h1 class="font-bold text-3xl my-10">Search your phone</h1>
             <label class="input w-2xl pr-0">
@@ -55,10 +56,19 @@
                         <path d="m21 21-4.3-4.3"></path>
                     </g>
                 </svg>
-                <input type="search" class="grow" placeholder="Search" />
-                <button class="btn btn-primary">Search</button>
+                <input id="search-field" type="search" class="grow" placeholder="Search" />
+                <button id="search-button" class="btn btn-primary">Search</button>
             </label>
         </section>
+        <!-- search end -->
+
+        <!-- items start -->
+        <section class="container mx-auto text-center my-20">
+            <div id="items-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+
+            </div>
+        </section>
+        <!-- items end -->
     </main>
 
 
